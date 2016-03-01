@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D7F69F41C858903001F2F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F69F31C858903001F2F46 /* AppDelegate.swift */; };
+		7D7F69F61C858903001F2F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F69F51C858903001F2F46 /* ViewController.swift */; };
+		7D7F69F91C858903001F2F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7F69F71C858903001F2F46 /* Main.storyboard */; };
+		7D7F69FB1C858903001F2F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D7F69FA1C858903001F2F46 /* Assets.xcassets */; };
+		7D7F69FE1C858903001F2F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7F69FC1C858903001F2F46 /* LaunchScreen.storyboard */; };
+		7D7F6A091C858903001F2F46 /* swapit_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F6A081C858903001F2F46 /* swapit_testTests.swift */; };
+		7D7F6A141C858903001F2F46 /* swapit_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F6A131C858903001F2F46 /* swapit_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D7F6A051C858903001F2F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F69E81C858903001F2F46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D7F69EF1C858903001F2F46;
+			remoteInfo = "swapit-test";
+		};
+		7D7F6A101C858903001F2F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F69E81C858903001F2F46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D7F69EF1C858903001F2F46;
+			remoteInfo = "swapit-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D7F69F01C858903001F2F46 /* swapit-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swapit-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7F69F31C858903001F2F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D7F69F51C858903001F2F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D7F69F81C858903001F2F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D7F69FA1C858903001F2F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D7F69FD1C858903001F2F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D7F69FF1C858903001F2F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D7F6A041C858903001F2F46 /* swapit-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swapit-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7F6A081C858903001F2F46 /* swapit_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapit_testTests.swift; sourceTree = "<group>"; };
+		7D7F6A0A1C858903001F2F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D7F6A0F1C858903001F2F46 /* swapit-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swapit-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7F6A131C858903001F2F46 /* swapit_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapit_testUITests.swift; sourceTree = "<group>"; };
+		7D7F6A151C858903001F2F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D7F69ED1C858903001F2F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7F6A011C858903001F2F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7F6A0C1C858903001F2F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D7F69E71C858903001F2F46 = {
+			isa = PBXGroup;
+			children = (
+				7D7F69F21C858903001F2F46 /* swapit-test */,
+				7D7F6A071C858903001F2F46 /* swapit-testTests */,
+				7D7F6A121C858903001F2F46 /* swapit-testUITests */,
+				7D7F69F11C858903001F2F46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D7F69F11C858903001F2F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D7F69F01C858903001F2F46 /* swapit-test.app */,
+				7D7F6A041C858903001F2F46 /* swapit-testTests.xctest */,
+				7D7F6A0F1C858903001F2F46 /* swapit-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D7F69F21C858903001F2F46 /* swapit-test */ = {
+			isa = PBXGroup;
+			children = (
+				7D7F69F31C858903001F2F46 /* AppDelegate.swift */,
+				7D7F69F51C858903001F2F46 /* ViewController.swift */,
+				7D7F69F71C858903001F2F46 /* Main.storyboard */,
+				7D7F69FA1C858903001F2F46 /* Assets.xcassets */,
+				7D7F69FC1C858903001F2F46 /* LaunchScreen.storyboard */,
+				7D7F69FF1C858903001F2F46 /* Info.plist */,
+			);
+			path = "swapit-test";
+			sourceTree = "<group>";
+		};
+		7D7F6A071C858903001F2F46 /* swapit-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D7F6A081C858903001F2F46 /* swapit_testTests.swift */,
+				7D7F6A0A1C858903001F2F46 /* Info.plist */,
+			);
+			path = "swapit-testTests";
+			sourceTree = "<group>";
+		};
+		7D7F6A121C858903001F2F46 /* swapit-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D7F6A131C858903001F2F46 /* swapit_testUITests.swift */,
+				7D7F6A151C858903001F2F46 /* Info.plist */,
+			);
+			path = "swapit-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D7F69EF1C858903001F2F46 /* swapit-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7F6A181C858903001F2F46 /* Build configuration list for PBXNativeTarget "swapit-test" */;
+			buildPhases = (
+				7D7F69EC1C858903001F2F46 /* Sources */,
+				7D7F69ED1C858903001F2F46 /* Frameworks */,
+				7D7F69EE1C858903001F2F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swapit-test";
+			productName = "swapit-test";
+			productReference = 7D7F69F01C858903001F2F46 /* swapit-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D7F6A031C858903001F2F46 /* swapit-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7F6A1B1C858903001F2F46 /* Build configuration list for PBXNativeTarget "swapit-testTests" */;
+			buildPhases = (
+				7D7F6A001C858903001F2F46 /* Sources */,
+				7D7F6A011C858903001F2F46 /* Frameworks */,
+				7D7F6A021C858903001F2F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D7F6A061C858903001F2F46 /* PBXTargetDependency */,
+			);
+			name = "swapit-testTests";
+			productName = "swapit-testTests";
+			productReference = 7D7F6A041C858903001F2F46 /* swapit-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D7F6A0E1C858903001F2F46 /* swapit-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7F6A1E1C858903001F2F46 /* Build configuration list for PBXNativeTarget "swapit-testUITests" */;
+			buildPhases = (
+				7D7F6A0B1C858903001F2F46 /* Sources */,
+				7D7F6A0C1C858903001F2F46 /* Frameworks */,
+				7D7F6A0D1C858903001F2F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D7F6A111C858903001F2F46 /* PBXTargetDependency */,
+			);
+			name = "swapit-testUITests";
+			productName = "swapit-testUITests";
+			productReference = 7D7F6A0F1C858903001F2F46 /* swapit-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D7F69E81C858903001F2F46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Swapit Limited";
+				TargetAttributes = {
+					7D7F69EF1C858903001F2F46 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					7D7F6A031C858903001F2F46 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7D7F69EF1C858903001F2F46;
+					};
+					7D7F6A0E1C858903001F2F46 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7D7F69EF1C858903001F2F46;
+					};
+				};
+			};
+			buildConfigurationList = 7D7F69EB1C858903001F2F46 /* Build configuration list for PBXProject "swapit-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D7F69E71C858903001F2F46;
+			productRefGroup = 7D7F69F11C858903001F2F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D7F69EF1C858903001F2F46 /* swapit-test */,
+				7D7F6A031C858903001F2F46 /* swapit-testTests */,
+				7D7F6A0E1C858903001F2F46 /* swapit-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D7F69EE1C858903001F2F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7F69FE1C858903001F2F46 /* LaunchScreen.storyboard in Resources */,
+				7D7F69FB1C858903001F2F46 /* Assets.xcassets in Resources */,
+				7D7F69F91C858903001F2F46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7F6A021C858903001F2F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7F6A0D1C858903001F2F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D7F69EC1C858903001F2F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7F69F61C858903001F2F46 /* ViewController.swift in Sources */,
+				7D7F69F41C858903001F2F46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7F6A001C858903001F2F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7F6A091C858903001F2F46 /* swapit_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7F6A0B1C858903001F2F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7F6A141C858903001F2F46 /* swapit_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D7F6A061C858903001F2F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D7F69EF1C858903001F2F46 /* swapit-test */;
+			targetProxy = 7D7F6A051C858903001F2F46 /* PBXContainerItemProxy */;
+		};
+		7D7F6A111C858903001F2F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D7F69EF1C858903001F2F46 /* swapit-test */;
+			targetProxy = 7D7F6A101C858903001F2F46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D7F69F71C858903001F2F46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D7F69F81C858903001F2F46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D7F69FC1C858903001F2F46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D7F69FD1C858903001F2F46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D7F6A161C858903001F2F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D7F6A171C858903001F2F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D7F6A191C858903001F2F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swapit-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "la.swapit.swapit-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D7F6A1A1C858903001F2F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swapit-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "la.swapit.swapit-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7D7F6A1C1C858903001F2F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "swapit-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "la.swapit.swapit-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swapit-test.app/swapit-test";
+			};
+			name = Debug;
+		};
+		7D7F6A1D1C858903001F2F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "swapit-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "la.swapit.swapit-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swapit-test.app/swapit-test";
+			};
+			name = Release;
+		};
+		7D7F6A1F1C858903001F2F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "swapit-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "la.swapit.swapit-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "swapit-test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7D7F6A201C858903001F2F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "swapit-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "la.swapit.swapit-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "swapit-test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D7F69EB1C858903001F2F46 /* Build configuration list for PBXProject "swapit-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7F6A161C858903001F2F46 /* Debug */,
+				7D7F6A171C858903001F2F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7F6A181C858903001F2F46 /* Build configuration list for PBXNativeTarget "swapit-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7F6A191C858903001F2F46 /* Debug */,
+				7D7F6A1A1C858903001F2F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D7F6A1B1C858903001F2F46 /* Build configuration list for PBXNativeTarget "swapit-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7F6A1C1C858903001F2F46 /* Debug */,
+				7D7F6A1D1C858903001F2F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D7F6A1E1C858903001F2F46 /* Build configuration list for PBXNativeTarget "swapit-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7F6A1F1C858903001F2F46 /* Debug */,
+				7D7F6A201C858903001F2F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D7F69E81C858903001F2F46 /* Project object */;
+}
